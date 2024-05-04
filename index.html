@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo</title>
+    <title>Pagamento por PIX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #qr-code {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Esta é uma página web simples.</p>
+    <h1>Pagamento por PIX</h1>
+    <div id="qr-code">
+        <img src="https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=UP%3APAY%3FNAME%3DSeu%20Nome%26PIX%3D11943083120">
+    </div>
+    <p>Para pagar, escaneie o QR code com o aplicativo do seu banco ou digite a chave PIX abaixo:</p>
+    <p><strong>Chave PIX:</strong> 11943083120</p>
+    <p>Após efetuar o pagamento, confirme enviando um e-mail para pagamentos@seudominio.com.br.</p>
 </body>
 </html>
